@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.confetti {
+    opacity: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    animation: confetti 0s 8s forwards;
+}
+
+.confetti img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.machina {
+    width: 55.7rem;
+    height: 17.2rem;
+    animation: machina 5s;
+}
+
+.machina img{
+    width: 100%;
+    height: 100%;
+    animation: machina-yezgaet 5s 5s forwards;
+}
+
+.img-sanechek {
+    opacity: 0%;
+    width: calc(86.4rem / 1.2);
+    height: calc(56.0rem / 1.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-36rem, -23.3rem);
+    animation: saniocheck 3s 6s forwards;
+}
+
+.img-sanechek img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container-text {
+    position: relative;
+    opacity: 0%;
+    text-align: center;
+    animation: saniocheck 5s 8s forwards;
+    top: 22rem;
+}
+
+.main-container-text h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-container p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    font-size: 2rem;
+}
+
+@keyframes machina {
+    0% {
+        transform: translateX(200rem);
+    }
+
+    100% {
+        transform: translateX(0rem);
+    }
+}
+
+@keyframes machina-yezgaet {
+    0% {
+        transform: translateX(0rem);
+    }
+
+    100% {
+        transform: translateX(-200rem);
+    }
+}
+
+@keyframes saniocheck {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes confetti {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+/* Colourfull text */
+.one {
+    color: rgb(221, 3, 3);
+}
+
+.space {
+    margin-right: 1.5rem;
+}
+
+.three {
+    color: rgb(247, 163, 0);
+}
+
+.four {
+    color: rgb(247, 230, 0);
+}
+
+.five {
+    color: rgb(0, 124, 37);
+}
+
+.six {
+    color: rgb(0, 75, 247);
+}
+
+.eight {
+    color: rgb(113, 7, 131);
+}
+
+.night {
+    color: rgb(221, 3, 3);
+}
+
+.ten {
+    color: rgb(247, 163, 0);
+}
+
+.eleven {
+    color: rgb(247, 230, 0);
+}
+
+.twelve {
+    color: rgb(0, 124, 37);
+}
+
+.thirtin {
+    color: rgb(0, 75, 247);
+}
+
+.fourtin {
+    color: rgb(113, 7, 131);
+}
+
+.fivtime {
+    color: rgb(221, 3, 3);
+}
+
+.sexteen {
+    color: rgb(247, 163, 0);
+}
